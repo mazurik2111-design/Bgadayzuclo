@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Форматування та гра</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <h1>Демонстрація HTML форматування</h1>
+    <h2>Огляд форматування HTML</h2>
+    <h3>Основні елементи тексту</h3>
+    <h4>Абзаци, виділення та цитати</h4>
+    <h5>Списки: марковані та нумеровані</h5>
+    <h6></h6>
+    <p>Це <strong>приклад</strong> абзацу з <em>курсивним</em> та <b>жирним</b> текстом.</p>
+    <blockquote>
+        "Навчання — це скарб, який завжди з вами." — Китайське прислів’я
+    </blockquote>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul
+    <ol>
+        <li>Підключити файл</li>
+        <li>Написати код</li>
+        <li>Перевірити роботу</li>
+    </ol>
+    <table border="1">
+        <tr>
+            <th>Ім’я</th>
+            <th>Вік</th>
+            <th>Місто</th>
+        </tr>
+        <tr>
+            <td>Катя</td>
+            <td>16</td>
+            <td>Ковель</td>
+        </tr>
+        <tr>
+            <td>Макс</td>
+            <td>20</td>
+            <td>Польща</td>
+        </tr>
+    </table>
+    <img src="media/image.jpg" alt="Зображення" width="300">
+    <video controls width="300">
+        <source src="media/video.mp4" type="video/mp4">
+        Ваш браузер не підтримує відео.
+    </video>
+    <audio controls>
+        <source src="media/audio.mp3" type="audio/mpeg">
+        Ваш браузер не підтримує аудіо.
+    </audio>
+    <iframe width="300" height="200" 
+        src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+        frameborder="0" allowfullscreen>
+    </iframe>
+    <hr>
+    <h2>Міні-гра: Вгадай число</h2>
+    <p>Загадано число від 1 до 100. Спробуй вгадати!</p>
+    <input type="number" id="guessInput" placeholder="Введіть число">
+    <button onclick="checkGuess()">Перевірити</button>
+    <p id="result"></p>
+</body>
+</html>
